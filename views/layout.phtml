@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -11,20 +12,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--load all styles -->
     <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" media="screen" type="text/css" href="<?= URL_SOURCE ?>/css/normalize.css"/>
-        <link rel="stylesheet" media="screen" type="text/css" href="<?= URL_SOURCE ?>/css/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= URL_SOURCE ?>/css/normalize.css" />
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= URL_SOURCE ?>/css/style.css" />
 </head>
+
 <body>
-<header>
-    <?php include "header.phtml" ?>
-</header>
-<main>
-    <?php include $app['view'] ?>
-</main>
-<footer>
-    <?php include "footer.phtml" ?>
-</footer>
+    <header>
+        <?php include "header.phtml" ?>
+    </header>
+    <main>
+        <?php include $app['view'] ?>
+    </main>
+    <footer>
+        <?php include "footer.phtml" ?>
+    </footer>
 </body>
+
 </html>

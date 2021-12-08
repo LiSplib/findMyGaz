@@ -7,7 +7,7 @@
  * Les constantes commençant par URL_ servent aux URLs absolues depuis localhost.
  */
 const DIR_ROOT      = __DIR__;                      // Chemin vers le dossier racine de l'application
-const URL_ROOT      = '/findmygaz';                  // URL vers l'application ** DOIT COMMENCER PAR UN / **
+const URL_ROOT      = '';                  // URL vers l'application ** DOIT COMMENCER PAR UN / **
 const DIR_VIEWS     = DIR_ROOT . '/views';            // Chemin vers les vues de l'application
 const DIR_PLUGINS   = DIR_ROOT . '/plugin';           // Chemin vers les plugins
 const URL_SOURCE      = URL_ROOT . '/sources';          // URL vers les fichiers statiques de l'application
