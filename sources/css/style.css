@@ -1,8 +1,31 @@
 /*---------------- HEADER ----------------*/
 /*global*/
-
+.alignLeft,
+.alignRight {
+    margin: 0 auto;
+    display: block;
+    max-width: 80%;
+}
+.container {
+	text-align: center;
+	max-width: 800px;
+	padding: 1em;
+	margin: 0 auto;
+}
 /*file ariane*/
 .button_active {
     color: red;
     text-decoration: underline;
+}
+
+
+/*Footer */
+
+.footer_box{
+        
+        padding: 2%;
+        border: 1px solid lightgray;
+        
+        
+
 }
